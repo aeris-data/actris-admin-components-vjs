@@ -452,7 +452,7 @@ export default {
 		display: grid;
 		grid-template-columns: min-content min-content auto ;
 		width: 100vw;
-		height: 100vh; 
+		height: inherit; 
 	  	grid-template-rows: auto;
 		grid-template-areas: "sites products details";
 	}
